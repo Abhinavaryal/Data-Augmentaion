@@ -97,18 +97,18 @@ It was created and used for learning in the same time.
 No
 
 ### Does the dataset relate to people?
-No
+No, not directly collected form people.
 
 ### Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
 No 
 
 ### Were the individuals in question notified about the data collection?
-No
+N/A
 
 ### Did the individuals in question consent to the collection and use of their data?
-No 
+N/A
 
-If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
+### If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
 N/A
 
 ### Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
