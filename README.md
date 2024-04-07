@@ -29,7 +29,9 @@ pipenv install .
 
 pipenv run python assignment2.py --urls files.csv
 
-the files.csv contains a list of urls that we want to extract data from. 
+the files.csv contains a list of urls that we want to extract data from. The video below can be seen for more help.
+
+https://github.com/Abhinavaryal/cis6930sp24-assignment2/assets/90201629/499cbb70-9557-4dda-a4b3-0ce27a21584c
 
 ## Functions:
 
