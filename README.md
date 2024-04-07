@@ -151,7 +151,7 @@ In my tests files six files can be found, Each file checks multiple functionalit
 
 There are other test cases that are related to the assignment 2 and they do :
 
-- test_DoWToD: 
+- test_time: 
 This pytest checks two things:
     - If the Day of the week obtained from the function is same as the Day mentioned in the data from norman PD
     - If the Time of the day is same as the one obtained from the Function.
@@ -161,7 +161,7 @@ This pytest checks:
 - test_RankingFunctions:
 This pytest checks:
     - If the manner in which both incident ranking and location ranking takes place in the manner that has been mentioned in the way we have been told to do in the instructions.
-- test_SoT: 
+- test_geo: 
 This pytest checks:
     - If the Side of Town coming matches the side of Town value of not.
     - If the latitude and longitude obtained is same as the latitude and longitude of the location. This is important as we use the latitude and longitude in the weather fucntion as well.
