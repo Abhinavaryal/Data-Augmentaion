@@ -406,6 +406,7 @@ def main(urls):
     #Assignment 2 work 
     #fetching all data
     alldata = fetchdata(db)
+    # alldata =[('3/1/2024 23:49', '2024-00015049', '901 N PORTER AVE', 'Suspicious', 'OK0140200'), ('3/1/2024 23:42', '2024-00003367', '529 BUCHANAN AVE', 'Assault EMS Needed', '14005'), ('3/1/2024 23:42', '2024-00004448', '529 BUCHANAN AVE', 'Assault EMS Needed', 'EMSSTAT'),  ('3/1/2024 12:34', '2024-00014922', '1226 CLASSEN BLVD', 'Suspicious', 'OK0140200'), ('3/1/2024 23:59', '2024-00015050', '3450 CHAUTAUQUA AVE', 'Alarm', 'OK0140200')]
     #getting day of the week and the Time of the day
     numericday, time = DowTod(alldata)
     # print(alldata)
@@ -430,7 +431,7 @@ def main(urls):
     WeatherCode = checkWeather(latlong, alldata, time)
 
 
-    print('Day of the Week\tTime of Day \t Weather \t Location Rank \t Side of town \t Incident Rank \t Nature \t EMMSTAT')
+    print('Day of the Week\tTime of Day\tWeather\tLocation Rank\tSide of town\tIncident Rank\tNature\tEMMSTAT')
     for i in range(len(alldata)):
 
         print(f'{numericday[i]}\t{time[i]}\t{WeatherCode[(alldata[i][0],alldata[i][2])]}\t{locationRanks[alldata[i][2]]}\t{SoT[alldata[i][2]]}\t{incidentRanks[alldata[i][3]]}\t{nature[i]}\t{emmssatVal[i]}')
